@@ -17,8 +17,8 @@
 export const site = {
   name: 'Alfowa Saqi',
   tagline: 'Custom fabrics made to order.',
-  whatsapp: 'https://wa.me/2348000000000',
-  instagram: 'https://instagram.com/yourhandle'
+  whatsapp: 'https://wa.me/9120412003',
+  instagram: 'https://instagram.com/magaji.ahmed'
 }
 
 /*
