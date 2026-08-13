@@ -1,8 +1,10 @@
 <template>
   <section class="page-hero">
     <div class="container">
-      <RouterLink to="/" class="back-link">← Home</RouterLink>
-      <span class="eyebrow">Our collection</span>
+      <div class="page-hero-top">
+        <RouterLink to="/" class="back-link">← Home</RouterLink>
+        <span class="eyebrow">Our collection</span>
+      </div>
       <h1>Fabrics for distinctive garments.</h1>
       <p>
         Explore the fabrics we manufacture and learn about their

@@ -4,9 +4,10 @@
     <section class="detail-hero">
       <div class="container detail-grid">
         <div class="detail-copy">
-          <RouterLink to="/fabrics" class="back-link">← All fabrics</RouterLink>
-
-          <span class="eyebrow">{{ fabric.category }}</span>
+          <div class="page-hero-top">
+            <RouterLink to="/" class="back-link">← Home</RouterLink>
+            <span class="eyebrow">{{ fabric.category }}</span>
+          </div>
 
           <h1>{{ fabric.name }}</h1>
 

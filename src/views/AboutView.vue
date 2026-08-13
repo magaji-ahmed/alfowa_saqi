@@ -1,8 +1,10 @@
 <template>
   <section class="page-hero">
     <div class="container">
-      <RouterLink to="/" class="back-link">← Home</RouterLink>
-      <span class="eyebrow">About Alfowa Saqi</span>
+      <div class="page-hero-top">
+        <RouterLink to="/" class="back-link">← Home</RouterLink>
+        <span class="eyebrow">About Alfowa Saqi</span>
+      </div>
       <h1>A fabric house built around craft and intention.</h1>
       <p>
         We believe the right textile gives a garment its character.

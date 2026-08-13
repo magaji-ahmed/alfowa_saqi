@@ -1,8 +1,10 @@
 <template>
   <section class="page-hero">
     <div class="container">
-      <RouterLink to="/" class="back-link">← Home</RouterLink>
-      <span class="eyebrow">Let's talk</span>
+      <div class="page-hero-top">
+        <RouterLink to="/" class="back-link">← Home</RouterLink>
+        <span class="eyebrow">Let's Talk</span>
+      </div>
       <h1>Tell us what you want to make.</h1>
       <p>
         For fabric enquiries, custom orders, pricing and production
