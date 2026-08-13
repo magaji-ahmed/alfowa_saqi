@@ -11,7 +11,7 @@ import AboutView from './views/AboutView.vue'
 import ContactView from './views/ContactView.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/alfowa-saqi/'),
   routes: [
     { path: '/', component: HomeView },
     { path: '/fabrics', component: FabricsView },
