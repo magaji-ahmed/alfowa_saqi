@@ -46,7 +46,7 @@ import { onMounted, ref, onBeforeUnmount } from 'vue'
 import { site } from '../data/site'
 
 const menuOpen = ref(false)
-const isDark = ref(true)
+const isDark = ref(false)
 
 function closeMenu() {
   menuOpen.value = false
@@ -80,6 +80,6 @@ function toggleTheme() {
 
 onMounted(() => {
   const saved = localStorage.getItem('alfowa-theme')
-  applyTheme(saved === 'light' ? 'light' : 'dark')
+  applyTheme(saved || 'light')
 })
 </script>
