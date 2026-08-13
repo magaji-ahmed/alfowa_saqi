@@ -22,7 +22,9 @@
         rel="noopener noreferrer"
         class="contact-card contact-whatsapp"
       >
-        <span class="contact-icon">WA</span>
+        <span class="contact-icon">
+          <i class="bi bi-whatsapp"></i>
+        </span>
         <span class="eyebrow eyebrow-dark">Direct enquiry</span>
         <h2>WhatsApp</h2>
         <p>
@@ -38,7 +40,9 @@
         rel="noopener noreferrer"
         class="contact-card contact-instagram"
       >
-        <span class="contact-icon">IG</span>
+        <span class="contact-icon">
+          <i class="bi bi-instagram"></i>
+        </span>
         <span class="eyebrow">Visual collection</span>
         <h2>Instagram</h2>
         <p>
