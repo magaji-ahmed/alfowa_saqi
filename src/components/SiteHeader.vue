@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, onBeforeUnmount } from 'vue'
 import { site } from '../data/site'
 
 const menuOpen = ref(false)
@@ -51,6 +51,22 @@ const isDark = ref(true)
 function closeMenu() {
   menuOpen.value = false
 }
+
+const handlePageClick = (event) => {
+  const nav = event.target.closest('.site-header')
+
+  if (!nav) {
+    closeMenu()
+  }
+}
+
+onMounted(() => {
+  document.addEventListener('click', handlePageClick)
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', handlePageClick)
+})
 
 function applyTheme(theme) {
   isDark.value = theme === 'dark'
