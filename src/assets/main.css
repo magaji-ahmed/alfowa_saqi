@@ -1107,6 +1107,11 @@ p {
     text-align: center;
   }
 
+  .theme-button {
+    align-items: center;
+    justify-content: center;
+  }
+
   .hero-grid,
   .detail-grid,
   .split-grid {
