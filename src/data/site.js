@@ -228,3 +228,31 @@ export const fabrics = [
     ]
   }
 ]
+
+export const faqs = [
+  {
+    question: 'Can I order a custom fabric design?',
+    answer:
+      'Yes. We manufacture fabrics to order and can discuss your preferred design, colours, materials, quantity and other specifications.'
+  },
+  {
+    question: 'What is the minimum order quantity?',
+    answer:
+      'Minimum quantities depend on the fabric type and production requirements. Contact us on WhatsApp or Instagram to discuss your order.'
+  },
+  {
+    question: 'How long does production take?',
+    answer:
+      'Production time depends on the fabric type, quantity and specifications of your order. We will provide an estimated timeline after discussing your requirements.'
+  },
+  {
+    question: 'Can I request a specific colour?',
+    answer:
+      'Yes. Colour requirements can be discussed during the ordering process. Availability and matching will depend on the fabric and production specifications.'
+  },
+  {
+    question: 'How do I place an order?',
+    answer:
+      'Simply browse our fabrics and contact us through WhatsApp or Instagram. We will discuss your requirements, confirm the specifications and provide pricing and production details.'
+  }
+]

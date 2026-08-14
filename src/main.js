@@ -9,6 +9,7 @@ import FabricDetailView from './views/FabricDetailView.vue'
 import OrderProcessView from './views/OrderProcessView.vue'
 import AboutView from './views/AboutView.vue'
 import ContactView from './views/ContactView.vue'
+import FaqView from '.views/FaqView.vue'
 
 const router = createRouter({
   history: createWebHistory('/alfowa_saqi/'),
@@ -18,7 +19,8 @@ const router = createRouter({
     { path: '/fabrics/:slug', component: FabricDetailView },
     { path: '/order-process', component: OrderProcessView },
     { path: '/about', component: AboutView },
-    { path: '/contact', component: ContactView }
+    { path: '/contact', component: ContactView },
+    { path: '/faq', component: FaqView },
   ],
   scrollBehavior() {
     return { top: 0 }

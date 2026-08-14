@@ -1082,6 +1082,62 @@ p {
 }
 
 /* ============================================================
+   FAQ
+   ============================================================ */
+
+.faq-section {
+  padding: 5rem 0;
+}
+
+.faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-top: 1px solid var(--border);
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-icon {
+  flex: 0 0 auto;
+  color: var(--gold);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.faq-answer {
+  padding: 0 3rem 1.5rem 0;
+}
+
+.faq-answer p {
+  margin: 0;
+  max-width: 750px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* ============================================================
    RESPONSIVE
    ============================================================ */
 
