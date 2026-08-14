@@ -9,7 +9,7 @@ import FabricDetailView from './views/FabricDetailView.vue'
 import OrderProcessView from './views/OrderProcessView.vue'
 import AboutView from './views/AboutView.vue'
 import ContactView from './views/ContactView.vue'
-import FaqView from '.views/FaqView.vue'
+import FaqView from './views/FaqView.vue'
 
 const router = createRouter({
   history: createWebHistory('/alfowa_saqi/'),

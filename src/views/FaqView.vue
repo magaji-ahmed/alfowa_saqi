@@ -77,7 +77,7 @@ const toggleFaq = (index) => {
 
           <div class="cta-actions">
             <a
-              :href="site.contact.whatsapp"
+              :href="site.whatsapp"
               target="_blank"
               rel="noopener"
               class="btn btn-primary"
@@ -86,7 +86,7 @@ const toggleFaq = (index) => {
             </a>
 
             <a
-              :href="site.contact.instagram"
+              :href="site.instagram"
               target="_blank"
               rel="noopener"
               class="btn btn-secondary"
