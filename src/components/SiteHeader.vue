@@ -21,7 +21,7 @@
         <RouterLink to="/fabrics" @click="closeMenu">Fabrics</RouterLink>
         <RouterLink to="/order-process" @click="closeMenu">Order Process</RouterLink>
         <RouterLink to="/about" @click="closeMenu">About</RouterLink>
-        <RouterLink to="/faq">FAQ</RouterLink>
+        <RouterLink to="/faq" @click="closeMenu">FAQ</RouterLink>
         <RouterLink to="/contact" @click="closeMenu">Contact</RouterLink>
 
         <button class="theme-button" type="button" @click="toggleTheme">
